@@ -1,7 +1,4 @@
 # 👋 Hi there, I'm **Chakri Gannbathula**
-
-![Banner](https://your-banner-image-url-here) <!-- Replace with your actual banner image URL -->
-
 🎓 First-Year Undergraduate at **VIT-AP University**  
 💻 Passionate about Web, Mobile, and Desktop App Development  
 📚 Exploring Dart, Flutter, DSA, iOS & Windows app development  
