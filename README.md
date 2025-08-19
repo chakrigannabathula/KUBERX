@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm **Chakri Gannbathula**
 
-🎓 First-Year Undergraduate at **VIT-AP University**  
+🎓 Undergraduate student at **VIT-AP University**  
 💼 **Intern at [Kubex App](https://kubex.app)**  
 💻 Passionate about Web, Mobile & Desktop App Development  
 📚 Currently diving into Dart, Flutter, DSA, and iOS & Windows development  
