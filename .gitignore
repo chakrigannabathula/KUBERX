@@ -43,3 +43,42 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Additional Flutter exclusions
+.metadata
+*.lock
+.flutter-plugins-dependencies
+
+# Node.js (for backend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Firebase
+**/firebase_options.dart
+**/*.json
+!pubspec.yaml
+
+# Sensitive files
+*.key
+*.p8
+*.p12
+*.jks
+google-services.json
+GoogleService-Info.plist
+
+# IDE
+.vscode/
+.idea/
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Images that might be temporary
+*.jpg
+*.jpeg
+*.png
+!assets/**

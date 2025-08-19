@@ -3,13 +3,14 @@ plugins {
     id("kotlin-android")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
+    // Add Google Services plugin for Firebase
+    id("com.google.gms.google-services")
 }
 
 android {
     ndkVersion = "27.0.12077973"
     namespace = "com.example.kuberx"
     compileSdk = flutter.compileSdkVersion
-
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -29,6 +30,9 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+
+        // Enable multidex for Firebase
+        multiDexEnabled = true
     }
 
     buildTypes {
@@ -42,4 +46,11 @@ android {
 
 flutter {
     source = "../.."
+}
+
+dependencies {
+    // Firebase and Google Play Services dependencies
+    implementation("com.google.firebase:firebase-auth:22.3.0")
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
+    implementation("androidx.multidex:multidex:2.0.1")
 }
